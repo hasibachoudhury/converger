@@ -2,7 +2,7 @@ import subprocess
 import json
 
 # Bootstrapping
-subprocess.run(["bootstrap.sh"])
+subprocess.run(["./bootstrap.sh"])
 
 config = json.loads("converge_one_box_config.json")
 
