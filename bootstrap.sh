@@ -1,8 +1,6 @@
-#!/bin/bash
-sudo su
-apt-get update
-apt-get install -y python3
-apt-get install git
+sudo apt-get update
+sudo apt-get install -y python3
+sudo apt-get install -y git
 rm -rf converger
 git clone $1
 cd converger
