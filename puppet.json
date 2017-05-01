@@ -1,0 +1,16 @@
+{
+  "app_name": "Hello World",
+  "bootstrap": "bootstrap.sh",
+  "packages": [
+    "apache",
+    "php"
+  ],
+  "services": [
+    "php",
+    "mysql"
+  ],
+  "servers": [
+    "192.168.33.10"
+  ],
+  "git": "https://github.com/tisha85/converger.git"
+}
